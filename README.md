@@ -15,6 +15,7 @@
 
 1) 기반 설정(필수 패키지, Docker/Compose, HEVC 디코딩 드라이버, Chrome)  
 2) 릴리즈 스크립트(`deploy.sh`)로 설치
+3) 토큰은 파트너사별로 별도로 전달됩니다. [Support](##Support) 를 통해 요청해 주세요.
 
 ---
 
@@ -142,6 +143,7 @@ It focuses on standards (e.g., ONVIF, H.264/H.265) and provides **plugin-free we
 
 1) Base setup (packages, Docker/Compose, HEVC decode drivers, Chrome)  
 2) Install via the release script (`deploy.sh`)
+3) You can get a token via [Support](##Support).
 
 ---
 
