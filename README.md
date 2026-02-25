@@ -117,6 +117,12 @@ curl -fsSL "https://github.com/yiyolcorp/nox-releases/releases/download/$VERSION
   | sudo GITHUB_TOKEN=<VENDOR_TOKEN> bash -s -- --clean-install --version $VERSION
 ```
 
+- 업그레이드 시에는 `--upgrade`를 명시해서 실행하면 됩니다.
+```bash
+export VERSION=<NEW_VERSION>
+curl -fsSL "https://github.com/yiyolcorp/nox-releases/releases/download/$VERSION/deploy.sh" \
+  | sudo GITHUB_TOKEN=<VENDOR_TOKEN> bash -s -- --upgrade --version $VERSION
+```
 ---
 
 ## Support
@@ -234,6 +240,13 @@ vainfo
 export VERSION=<NEW_VERSION>
 curl -fsSL "https://github.com/yiyolcorp/nox-releases/releases/download/$VERSION/deploy.sh" \
   | sudo GITHUB_TOKEN=<VENDOR_TOKEN> bash -s -- --clean-install --version $VERSION
+```
+
+- Run with `--upgrade` for upgrading.
+```bash
+export VERSION=<NEW_VERSION>
+curl -fsSL "https://github.com/yiyolcorp/nox-releases/releases/download/$VERSION/deploy.sh" \
+  | sudo GITHUB_TOKEN=<VENDOR_TOKEN> bash -s -- --upgrade --version $VERSION
 ```
 
 ---
