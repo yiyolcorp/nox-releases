@@ -28,7 +28,7 @@
 
 ```bash
 # curl 설치
-sudo apt install -y curl
+sudo apt install -y curl jq
 
 # Docker 설치
 curl -fsSL https://get.docker.com | sudo sh
@@ -156,7 +156,7 @@ It focuses on standards (e.g., ONVIF, H.264/H.265) and provides **plugin-free we
 
 ```bash
 # Install curl
-sudo apt install -y curl
+sudo apt install -y curl jq
 
 # Install Docker
 curl -fsSL https://get.docker.com | sudo sh
